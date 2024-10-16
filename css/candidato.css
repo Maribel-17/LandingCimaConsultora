@@ -1,6 +1,6 @@
-/*Seccion 4*/
+/*Section Candidato*/
 
-.section-4 {
+.section-candidatos {
   width: 100vw;
   display: flex;
   flex-direction: column;
@@ -10,7 +10,7 @@
   gap: 70px;
 }
 
-.main-section-4-content {
+.main-section-candidatos-content {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -24,7 +24,7 @@
   padding: 40px 30px;
 }
 
-.section-4-title {
+.section-candidatos-title {
   font-size: 2rem;
   font-weight: 700;
   line-height: 2rem;
@@ -32,7 +32,7 @@
   margin-bottom: 2rem;
 }
 
-.section-4-description {
+.section-candidatos-description {
   margin-bottom: 10px;
   font-size: 1rem;
   font-weight: 300;
@@ -78,15 +78,29 @@ p {
 }
 
 @media screen and (min-width: 768px) {
-  .main-section-4-content {
-    align-items: start;
+
+.section-candidatos-title {
+    font-size: 2.8rem;
+}
+
+.section-candidatos-description {
+  font-size: 1.1rem;
+  line-height: 1.6rem;
+}
+
+p {
+  font-size: 1.1rem;
+}
+
+.main-section-candidatos-content {
+    align-items: center;
   }
 }
 
 @media screen and (min-width: 1024px) {
   /*Seccion 4*/
 
-  .section-4 {
+  .section-candidatos {
     flex-direction: row;
     margin: 50px auto;
     padding: 50px 0 50px 50px;
@@ -94,18 +108,19 @@ p {
     gap: 90px;
   }
 
-  .main-section-4-content {
+  .main-section-candidatos-content {
     max-width: 600px;
     width: 55vw;
+    align-items: flex-start;
   }
 
-  .section-4-title {
+  .section-candidatos-title {
     font-size: 3.5rem;
     line-height: 3.5rem;
     margin-bottom: 3rem;
   }
 
-  .section-4-description {
+  .section-candidatos-description {
     margin-bottom: 20px;
     font-size: 1.2rem;
     line-height: 1.6rem;
