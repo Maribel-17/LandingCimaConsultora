@@ -8,6 +8,7 @@ footer {
 
 .footer-container {
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
   margin: 0 auto;
   gap: 20px;
@@ -53,6 +54,11 @@ footer {
   color: var(--color2);
 }
 
+.subcontent-footer {
+  display: flex;
+  flex-direction: column;
+}
+
 .footer-section ul,
 .footer-section li {
   font-size: 0.9rem;
@@ -91,6 +97,17 @@ footer {
 }
 
 @media screen and (min-width: 768px) {
+  .footer-container {
+    flex-direction: row;
+  }
+
+  .footer-section {
+    min-width: min-content;
+  }
+  .footer-description {
+    min-width: 250px;
+    width: 100%;
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -107,6 +124,10 @@ footer {
     width: 70%;
   }
 
+  .subcontent-footer {
+    flex-direction: row;
+    width: 43%;
+  }
   .footer-section h2,
   .footer-section h3 {
     font-size: 1rem;
