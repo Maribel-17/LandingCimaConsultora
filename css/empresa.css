@@ -1,81 +1,87 @@
+/*Seccion empresa*/
 
+.section-empresa {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 40px 30px;
+}
 
-/*Seccion 2*/
-
-.section-2 {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-    padding: 40px 30px;
-  }
-  
-  .main-section-2-content {
+.main-section-empresa-content {
   text-align: center;
-  }
-  
-  h1 {
-    font-size: 2.5rem;
-    font-weight: 700;
-    line-height: 3rem;
-    color: var(--color3);
-    text-align: center;
-  }
-    
-  p {
-    font-size: 1rem;
-    font-weight: 300;
-    line-height: 1.5rem;
-    color: var(--color4);
-    margin: 2rem 0rem;
-  }
-  
-  h2 {
-    font-size: 2rem;
-    font-weight: 700;
-    line-height: 3rem;
-    color: var(--color3);
-    margin-bottom: 2rem;
-  }
-  
-  .main-section-2-content h1, .main-section-2-content h2 {
-    text-align: center;
-  }
+}
 
-  
+.section-empresa-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 3rem;
+  color: var(--color3);
+  text-align: center;
+}
+
+.section-empresa-description {
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.5rem;
+  color: var(--color4);
+  margin: 2rem 0rem;
+}
+
+.section-empresa-subtitle {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 3rem;
+  color: var(--color3);
+  margin-bottom: 2rem;
+}
+
+.main-section-empresa-content h1,
+.main-section-empresa-content h2 {
+  text-align: center;
+}
+
 @media screen and (min-width: 768px) {
-  
 
+.section-empresa-title {
+    font-size: 2.8rem;
+}
+  
+  .section-empresa-description {
+    font-size: 1.1rem;
+    line-height: 1.8rem;
   }
+  
+  .section-empresa-subtitle {
+    font-size: 2.2rem;
+}
+
+}
 
 @media screen and (min-width: 1024px) {
-    
-/*Seccion 2*/
+  .section-empresa {
+    display: flex;
+    gap: 5rem;
+  }
 
-h1 {
+  .section-empresa-title {
     font-size: 3.5rem;
     line-height: 3.5rem;
     text-align: left;
   }
-    
-  p {
+
+  .section-empresa-description {
     font-size: 1.2rem;
     margin-bottom: 60px;
     line-height: 1.6rem;
   }
-  
-  h2 {
+
+  .section-empresa-subtitle {
     font-size: 2.5rem;
     line-height: 3.5rem;
     margin-bottom: 3rem;
   }
-  
-  .section-2 {
-    display: flex;
-    gap: 5rem;
-  }
-  
-  .main-section-2-content {
+
+  .main-section-empresa-content {
     text-align: justify;
   }
-  
 }
