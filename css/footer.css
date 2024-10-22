@@ -16,7 +16,7 @@ footer {
 }
 
 .logo-footer {
-  width: 50%;
+  width: 200px;
 }
 
 .footer-section {
@@ -104,8 +104,9 @@ footer {
   .footer-section {
     min-width: min-content;
   }
+
   .footer-description {
-    min-width: 250px;
+    min-width: 220px;
     width: 100%;
   }
 }
@@ -120,13 +121,15 @@ footer {
     gap: 40px;
   }
 
-  .logo-footer {
-    width: 70%;
+  .footer-menu {
+    padding: 0 70px;
   }
 
   .subcontent-footer {
     flex-direction: row;
     width: 43%;
+    gap: 40px;
+
   }
   .footer-section h2,
   .footer-section h3 {
