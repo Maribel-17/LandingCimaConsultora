@@ -99,11 +99,12 @@ header {
 header {
   max-width: 1200px;
   gap: 20px;
+  margin: auto;
 }
 
 .logo {
   content: url("/img/CIMA\ LOGO.png");
-  width: 250px;
+  width: 200px;
 }
 
 .menu {
@@ -113,6 +114,7 @@ header {
   flex-direction: row;
   position: static;
   align-items: center;
+  justify-content: flex-end;
   gap: 1rem;
   background-color: transparent;
   box-shadow: none;
@@ -124,19 +126,18 @@ header {
   list-style: none;
   font-weight: 600;
   gap: 1rem;
+  white-space: nowrap;
 }
 
 .lista-menu li {
   display: inline-block; 
-  font-size: 1.2rem;
-  line-height: 1.6;
 }
 
 .lista-menu a {
   display: block;
   padding: 8px;
   color: var(--color3);
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 
 .lista-menu a:hover {
