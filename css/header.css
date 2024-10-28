@@ -18,10 +18,15 @@ header {
   position: relative;
 }
 
-.icon-menu,
-.icon-cross {
+.icon-menu {
   display: block;
   font-size: 1.5rem;
+  color: var(--color3);
+}
+
+.icon-cross {
+  display: block;
+  font-size: 1.3rem;
   color: var(--color3);
 }
 

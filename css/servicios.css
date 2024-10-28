@@ -103,7 +103,7 @@ background-color: var(--color6);
 .services-section {
   flex-direction: row;
   gap: 40px; 
-  padding: 0 20px;
+  padding: 40px 30px;
 }
 
 .services-grid,
