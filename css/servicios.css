@@ -102,8 +102,12 @@ background-color: var(--color6);
 
 .services-section {
   flex-direction: row;
-  gap: 40px; 
-  padding: 40px 30px;
+  gap: 30px; 
+  padding: 40px 15px;
+  max-width: 1200px; 
+  margin: 0 auto;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .services-grid,
@@ -113,8 +117,9 @@ background-color: var(--color6);
 
 .services-grid {
 grid-template-columns: repeat(3, 1fr);
-max-width: 600px;
-padding: 30px;
+max-width: 800px;
+padding: 20px;
+box-sizing: border-box;
 }
 
 .service-item {
@@ -131,8 +136,10 @@ padding: 20px;
 }
 
 .text-section {
-align-items: flex-end; 
+align-items: end; 
 padding-left: 0;
+padding: 25px 15px;
+box-sizing: border-box;
 }
 
 .text-section h1 {
