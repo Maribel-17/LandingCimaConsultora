@@ -3,11 +3,13 @@ footer {
   background-color: var(--color4);
   color: var(--color2);
   padding: 3rem 30px;
+  
 }
 
 .footer-container {
   max-width: 1200px;
   margin: 0 auto;
+  scroll-margin-top: 80px;
 }
 
 
@@ -131,5 +133,15 @@ footer h3 {
   .derechos {
     text-align: center;
     grid-column: span 3;
+  }
+
+  .derechos a {
+    color: var(--color2);
+    text-decoration: none;
+    font-size: 0.9rem;
+  }
+
+  .derechos a:hover {
+    text-decoration: underline;
   }
 }

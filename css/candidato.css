@@ -8,6 +8,7 @@
   align-items: center;
   background-color: var(--color5);
   gap: 70px;
+  scroll-margin-top: 80px;
 }
 
 .main-section-candidatos-content {
@@ -22,6 +23,7 @@
   justify-content: left;
   align-items: center;
   padding: 40px 30px;
+  scroll-margin-top: 80px;
 }
 
 .section-candidatos-title {
