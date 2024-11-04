@@ -77,6 +77,16 @@ footer h3 {
   text-align: center;
 }
 
+.derechos a {
+  color: var(--color2);
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.derechos a:hover {
+  text-decoration: underline;
+}
+
 .footer-menu ul li a, 
 .footer-contacto a, 
 .redes a {
@@ -135,13 +145,4 @@ footer h3 {
     grid-column: span 3;
   }
 
-  .derechos a {
-    color: var(--color2);
-    text-decoration: none;
-    font-size: 0.9rem;
-  }
-
-  .derechos a:hover {
-    text-decoration: underline;
-  }
 }
