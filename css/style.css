@@ -24,6 +24,10 @@
   font-family: "Inter", sans-serif;
   scroll-behavior: smooth;
 }
+a:active,
+a:visited {
+  text-decoration: none;
+}
 
 .body {
   width: 100vw;
@@ -32,6 +36,10 @@
   flex-direction: column;
   justify-content: center;
   color: var(--color4);
+}
+
+main {
+  margin-top: 76.5px;
 }
 
 .wrapper {
@@ -52,7 +60,13 @@
 }
 
 @media screen and (min-width: 768px) {
+  main {
+    margin-top: 100px;
+  }
 }
 
 @media screen and (min-width: 1024px) {
+  main {
+    margin-top: 168px;
+  }
 }

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <!-- Creator: CorelDRAW 2020 (64-Bit) -->
-<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="163.233mm" height="210.907mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
-viewBox="0 0 2076.74 2683.28"
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="162.889mm" height="210.901mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 1569.86 2032.59"
  xmlns:xlink="http://www.w3.org/1999/xlink"
  xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
  <defs>
@@ -12,39 +12,31 @@ viewBox="0 0 2076.74 2683.28"
     .fil0 {fill:#780EA7}
    ]]>
   </style>
-    <clipPath id="id0">
-     <rect width="2076.74" height="2683.28"/>
-    </clipPath>
+   <clipPath id="id0">
+    <path d="M70.05 78.29l1499.82 0 0 1887.13 -1499.82 0 0 -1887.13z"/>
+   </clipPath>
     <clipPath id="id1">
-     <path d="M96.84 103.42l1979.9 0 0 2491.19 -1979.9 0 0 -2491.19z"/>
+     <path d="M70.05 78.29l1499.82 0 0 1887.13 -1499.82 0 0 -1887.13z"/>
     </clipPath>
-     <clipPath id="id2">
-      <path d="M96.84 103.42l1979.9 0 0 2491.19 -1979.9 0 0 -2491.19z"/>
-     </clipPath>
-     <clipPath id="id3">
-      <path d="M96.84 103.42l1979.9 0 0 2491.19 -1979.9 0 0 -2491.19z"/>
-     </clipPath>
+    <clipPath id="id2">
+     <path d="M70.05 78.29l1499.82 0 0 1887.13 -1499.82 0 0 -1887.13z"/>
+    </clipPath>
  </defs>
  <g id="Capa_x0020_1">
   <metadata id="CorelCorpID_0Corel-Layer"/>
-  <g id="_2039985907968">
-   <g style="clip-path:url(#id0)">
-    <image x="-0" y="0" width="2076.74" height="2683.28" xlink:href="foto seccion candidatos_Images\foto seccion candidatos_ImgID1.png"/>
-   </g>
-   <rect class="fil0" x="1619.84" y="0.07" width="456.9" height="2683.21"/>
-   <rect class="fil0" x="4.37" y="0.07" width="456.9" height="1055.22"/>
+  <rect class="fil0" x="1223.75" y="-0" width="346.11" height="2032.59"/>
+  <rect class="fil0" y="-0" width="346.11" height="799.35"/>
+  <g>
+  </g>
+  <g style="clip-path:url(#id0)">
    <g>
    </g>
    <g style="clip-path:url(#id1)">
-    <g id="_2039985907056">
-    </g>
-    <g style="clip-path:url(#id2)">
-     <image transform="matrix(-3.09707 -0 -0 3.09707 2087.62 -364.359)" x="0" y="0" width="646.31" height="969.46" xlink:href="foto seccion candidatos_Images\foto seccion candidatos_ImgID2.png"/>
-    </g>
-    <g style="clip-path:url(#id3)">
-    </g>
+    <image id="pexels-marcus-aurelius-4064173.jpg" transform="matrix(-0.113708 -0 -0 0.113708 1593.16 -322.372)" x="0" y="0" width="13599.75" height="20399.63" xlink:href="foto seccion candidatos_Images\foto seccion candidatos_ImgID1.png"/>
    </g>
-   <polygon class="fil1" points="96.84,103.42 2076.74,103.42 2076.74,2594.61 96.84,2594.61 "/>
+   <g style="clip-path:url(#id2)">
+   </g>
   </g>
+  <polygon class="fil1" points="70.05,78.29 1569.86,78.29 1569.86,1965.42 70.05,1965.42 "/>
  </g>
 </svg>
