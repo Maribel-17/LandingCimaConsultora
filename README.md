@@ -6,7 +6,7 @@ Landing page desarrollada para **CIMA Consultora**, un equipo de profesionales e
 🔗 [Visitar el sitio web](https://cimaconsultora.com.ar/)  
 
 ## 📸 Vista Previa  
-![CIMA Consultora Landing Page](URL_DE_LA_IMAGEN)  
+![CIMA Consultora Landing Page](https://github.com/Maribel-17/LandingConsultoraCima/blob/main/img/vista%20previa%20LANDING%20CIMA%20CONSULTORA.JPG) 
 
 ## 🛠 Tecnologías Utilizadas  
 - HTML  
