@@ -24,8 +24,8 @@ header {
 }
 
 .logo {
-  content: url("/img/LogoSinBajada.png");
-  width: 80px;
+  content: url("/img/cimaLogoSinBajada.png");
+  width: 100px;
   z-index: 10000;
   position: relative;
 }
@@ -94,8 +94,8 @@ header {
   }
 
   .logo {
-    content: url("/img/LogoSinBajada.png");
-    width: 150px;
+    content: url("/img/cimaLogoSinBajada.png");
+    width: 170px;
   }
 
   .icon-menu,
@@ -125,7 +125,6 @@ header {
   }
 
   .logo {
-    content: url("/img/CIMA\ LOGO.png");
     width: 200px;
   }
 
