@@ -2,14 +2,15 @@
 
 .section-inicio {
   position: relative;
-  background-image: url(../img/fondo\ 3.png);
+  background-image: url(../img/fondo\ 4.jpg);
   background-size: cover;
   background-position: center;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 40px 30px;
-  scroll-margin-top: 80px;
+  min-height: 100dvh;
+  scroll-margin-top: 100px;
 }
 
 .section-inicio-title,
@@ -63,7 +64,7 @@
 
 @media screen and (min-width: 768px) {
   .section-inicio {
-    height: 80vh;
+    min-height: 80vh;
   }
 
   .section-inicio-title {
@@ -86,7 +87,7 @@
 
 @media screen and (min-width: 1024px) {
   .section-inicio {
-    height: 100vh;
+    width: 100%;
     justify-content: left;
   }
 
