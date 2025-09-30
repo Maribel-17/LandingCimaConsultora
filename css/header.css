@@ -29,6 +29,7 @@ header {
   width: 100px;
   z-index: 10000;
   position: relative;
+  width: 150px;
 }
 
 .icon-menu {

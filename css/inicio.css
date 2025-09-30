@@ -9,8 +9,7 @@
   justify-content: center;
   align-items: center;
   padding: 40px 30px;
-  min-height: 100dvh;
-  scroll-margin-top: 100px;
+  min-height: calc(100vh - 76.5px);
 }
 
 .section-inicio-title,
@@ -23,6 +22,7 @@
   font-weight: 700;
   line-height: 3rem;
   margin-bottom: 2rem;
+  text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
 }
 
 .section-inicio-description {
@@ -59,14 +59,11 @@
 .main-section-inicio-content {
   text-align: center;
   max-width: 700px;
-  margin: auto;
+  margin: 100px;
 }
 
 @media screen and (min-width: 768px) {
-  .section-inicio {
-    min-height: 80vh;
-  }
-
+ 
   .section-inicio-title {
     font-size: 2.5rem;
     line-height: 2.8rem;
@@ -87,7 +84,6 @@
 
 @media screen and (min-width: 1024px) {
   .section-inicio {
-    width: 100%;
     justify-content: left;
   }
 
