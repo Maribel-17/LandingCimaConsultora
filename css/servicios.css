@@ -44,7 +44,7 @@ align-items: center;
 padding-left: 0;
 width: 100%;
 text-align: center;
-padding: 40px 30px;
+padding: 40px 0px;
 }
 
 .text-section h1 {
@@ -138,7 +138,7 @@ padding: 20px;
 .text-section {
 align-items: end; 
 padding-left: 0;
-padding: 25px 15px;
+padding: 25px 0px;
 box-sizing: border-box;
 }
 
