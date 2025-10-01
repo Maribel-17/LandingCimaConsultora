@@ -64,6 +64,9 @@ main {
   padding: 15px 30px;
 }
 
+html, body {
+  overflow-x: hidden;
+}
 
 @media screen and (min-width: 768px) {
   main {
