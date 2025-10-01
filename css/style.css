@@ -12,6 +12,9 @@
   --color6: #5c0481;
   --color7: #efefef;
   --color8: #F4DFFF;
+  --color9: #5F479E;
+  --color10: #381b80;
+  --color11: #E0DAED;
 }
 
 /*Estilos Generales*/
@@ -25,6 +28,7 @@
   font-family: "Inter", sans-serif;
   scroll-behavior: smooth;
 }
+
 a:active,
 a:visited {
   text-decoration: none;

@@ -2,41 +2,41 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <!-- Creator: CorelDRAW 2020 (64-Bit) -->
 <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="162.889mm" height="210.901mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
-viewBox="0 0 1569.86 2032.59"
+viewBox="0 0 2534.97 3282.17"
  xmlns:xlink="http://www.w3.org/1999/xlink"
  xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
  <defs>
   <style type="text/css">
    <![CDATA[
     .fil1 {fill:none}
-    .fil0 {fill:#780EA7}
+    .fil0 {fill:#5F479E}
    ]]>
   </style>
    <clipPath id="id0">
-    <path d="M70.05 78.29l1499.82 0 0 1887.13 -1499.82 0 0 -1887.13z"/>
+    <path d="M113.11 126.42l2421.87 0 0 3047.29 -2421.87 0 0 -3047.29z"/>
    </clipPath>
     <clipPath id="id1">
-     <path d="M70.05 78.29l1499.82 0 0 1887.13 -1499.82 0 0 -1887.13z"/>
+     <path d="M113.11 126.42l2421.87 0 0 3047.29 -2421.87 0 0 -3047.29z"/>
     </clipPath>
     <clipPath id="id2">
-     <path d="M70.05 78.29l1499.82 0 0 1887.13 -1499.82 0 0 -1887.13z"/>
+     <path d="M113.11 126.42l2421.87 0 0 3047.29 -2421.87 0 0 -3047.29z"/>
     </clipPath>
  </defs>
  <g id="Capa_x0020_1">
   <metadata id="CorelCorpID_0Corel-Layer"/>
-  <rect class="fil0" x="1223.75" y="-0" width="346.11" height="2032.59"/>
-  <rect class="fil0" y="-0" width="346.11" height="799.35"/>
+  <rect class="fil0" x="1976.08" y="-0" width="558.89" height="3282.17"/>
+  <rect class="fil0" y="-0" width="558.89" height="1290.78"/>
   <g>
   </g>
   <g style="clip-path:url(#id0)">
    <g>
    </g>
    <g style="clip-path:url(#id1)">
-    <image id="pexels-marcus-aurelius-4064173.jpg" transform="matrix(-0.113708 -0 -0 0.113708 1593.16 -322.372)" x="0" y="0" width="13599.75" height="20399.63" xlink:href="foto seccion candidatos_Images\foto seccion candidatos_ImgID1.png"/>
+    <image id="pexels-marcus-aurelius-4064173.jpg" transform="matrix(-0.113708 -0 -0 0.113708 2572.59 -520.559)" x="0" y="0" width="21960.55" height="32940.82" xlink:href="foto seccion candidatos_Images\foto seccion candidatos_ImgID1.png"/>
    </g>
    <g style="clip-path:url(#id2)">
    </g>
   </g>
-  <polygon class="fil1" points="70.05,78.29 1569.86,78.29 1569.86,1965.42 70.05,1965.42 "/>
+  <polygon class="fil1" points="113.11,126.42 2534.97,126.42 2534.97,3173.71 113.11,3173.71 "/>
  </g>
 </svg>

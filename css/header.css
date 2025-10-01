@@ -166,7 +166,7 @@ header {
   }
 
   .lista-menu a:hover {
-    background-color: var(--color1);
+    background-color: var(--color9);
     color: var(--color2);
     border-radius: 5px;
   }
