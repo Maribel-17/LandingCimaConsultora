@@ -21,6 +21,7 @@
   <link rel="stylesheet" href="./css/busquedas.css">
   <link rel="stylesheet" href="./css/quienesSomos.css" />
   <link rel="stylesheet" href="./css/footer.css" />
+  <link rel="stylesheet" href="./css/overrides.css">  
 </head>
 
 <body>
@@ -290,6 +291,21 @@
   </footer>
 
   <script src="./js/main.js"></script>
-</body>
+  <script src="https://website-widgets.pages.dev/dist/sienna.min.js" defer></script>
+  
+<script>
+function ajustarWidget() {
+  const el = document.querySelector("#ubey-RecordingScreen-count-count");
+  const content = document.querySelector(".ubey-RecordingScreen-count-down-content");
 
+  if (el && content) {
+    el.style.fontSize = "clamp(3em, 10vw, 12em)";
+    content.style.height = "clamp(6em, 20vw, 14em)";
+    content.style.width = "clamp(6em, 20vw, 14em)";
+  }
+}
+setInterval(ajustarWidget, 500);
+</script>
+
+</body>
 </html>
