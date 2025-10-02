@@ -8,7 +8,7 @@
 }
 
 .services-grid {
-background-color: var(--color1);
+background-color: var(--color10);
 display: grid;
 grid-template-columns: repeat(2, 1fr);
 gap: 20px;
@@ -44,7 +44,7 @@ align-items: center;
 padding-left: 0;
 width: 100%;
 text-align: center;
-padding: 40px 30px;
+padding: 40px 0px;
 }
 
 .text-section h1 {
@@ -66,13 +66,13 @@ color: var(--color4);
 }
 
 .btn {
-  background-color: var(--color1);
+  background-color: var(--color9);
   color: var(--color2);
   margin-top: 20px;
 }
 
 .btn:hover {
-background-color: var(--color6);
+background-color: var(--color10);
 }
 
 @media screen and (min-width: 768px) {
@@ -138,7 +138,7 @@ padding: 20px;
 .text-section {
 align-items: end; 
 padding-left: 0;
-padding: 25px 15px;
+padding: 25px 0px;
 box-sizing: border-box;
 }
 

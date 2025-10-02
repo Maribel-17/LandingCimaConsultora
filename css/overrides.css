@@ -1,0 +1,9 @@
+/* Override para widget Sienna */
+html body #ubey-RecordingScreen-count-count {
+  font-size: clamp(3em, 10vw, 12em) !important;
+}
+
+html body .ubey-RecordingScreen-count-down-content {
+  height: clamp(6em, 20vw, 14em) !important;
+  width: clamp(6em, 20vw, 14em) !important;
+}

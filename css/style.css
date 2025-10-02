@@ -11,6 +11,10 @@
   --color5: #fbf3ff;
   --color6: #5c0481;
   --color7: #efefef;
+  --color8: #F4DFFF;
+  --color9: #5F479E;
+  --color10: #381b80;
+  --color11: #E0DAED;
 }
 
 /*Estilos Generales*/
@@ -24,6 +28,7 @@
   font-family: "Inter", sans-serif;
   scroll-behavior: smooth;
 }
+
 a:active,
 a:visited {
   text-decoration: none;
@@ -59,14 +64,22 @@ main {
   padding: 15px 30px;
 }
 
+html, body {
+  overflow-x: hidden;
+}
+
 @media screen and (min-width: 768px) {
   main {
-    margin-top: 100px;
+    padding-top: 0;
   }
 }
 
 @media screen and (min-width: 1024px) {
   main {
-    margin-top: 168px;
+    padding-top: 0;
   }
+
+.wrapper {
+  margin-top: 200px;
+}
 }

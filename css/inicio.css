@@ -2,14 +2,14 @@
 
 .section-inicio {
   position: relative;
-  background-image: url(../img/fondo\ 3.png);
+  background-image: url(../img/fondo\ 4.jpg);
   background-size: cover;
   background-position: center;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 40px 30px;
-  scroll-margin-top: 80px;
+  min-height: calc(100vh - 76.5px);
 }
 
 .section-inicio-title,
@@ -22,6 +22,7 @@
   font-weight: 700;
   line-height: 3rem;
   margin-bottom: 2rem;
+  text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
 }
 
 .section-inicio-description {
@@ -44,13 +45,13 @@
 .btn-personal,
 .btn-empleo {
   background-color: var(--color2);
-  color: var(--color1);
+  color: var(--color10);
   border: 1px solid var(--color5);
 }
 
 .btn-personal:hover,
 .btn-empleo:hover {
-  background-color: var(--color1);
+  background-color: var(--color10);
   color: var(--color2);
   border: 1px solid var(--color5);
 }
@@ -58,14 +59,11 @@
 .main-section-inicio-content {
   text-align: center;
   max-width: 700px;
-  margin: auto;
+  
 }
 
 @media screen and (min-width: 768px) {
-  .section-inicio {
-    height: 80vh;
-  }
-
+ 
   .section-inicio-title {
     font-size: 2.5rem;
     line-height: 2.8rem;
@@ -82,17 +80,24 @@
     gap: 60px;
     justify-content: center;
   }
+
+  .main-section-inicio-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-left: 30px;
+    margin: 100px;
+  }
 }
 
 @media screen and (min-width: 1024px) {
   .section-inicio {
-    height: 100vh;
     justify-content: left;
   }
 
   .section-inicio-title {
     font-size: 3.3rem;
-    line-height: 3.5rem;
+    line-height: 4rem;
     margin-bottom: 3rem;
     text-align: start;
   }
@@ -114,6 +119,6 @@
     flex-direction: column;
     justify-content: flex-start;
     padding-left: 30px;
-    margin: 0%;
+    margin: 0px;
   }
 }
