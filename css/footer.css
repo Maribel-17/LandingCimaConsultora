@@ -109,6 +109,31 @@ footer h3 {
   margin-right: 10px;
 }
 
+.creditos {
+  display: flex;
+  align-items: center;
+  gap: 10px; 
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.creditos a {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  text-decoration: none;
+  color: inherit; 
+}
+
+.creditos a:hover {
+  opacity: 0.8; 
+}
+
+.logo-mp {
+  height: 40px;
+  width: auto;
+}
+
 
 @media (min-width: 768px) {
 
